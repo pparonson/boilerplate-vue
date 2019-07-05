@@ -8,6 +8,7 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 // create a VueRouter instance and pass the routes object
+// const router = new VueRouter({mode: 'history', routes})
 const router = new VueRouter({routes})
 
 new Vue({
